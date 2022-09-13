@@ -1,0 +1,87 @@
+body {
+  background-image: url(../images/backcover.svg);
+  background-repeat: no-repeat;
+  background-position: top 0px right 0px;
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav > img {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  left: 2%;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  color: blue;
+  left: 27%;
+}
+.signin-btn {
+  float: right;
+  display: flex;
+  position: relative;
+  left: 50%;
+  color: #fff;
+  background-image: linear-gradient(90deg, blue, violet);
+  border-radius: 12px;
+  padding: 3px 25px 3px 25px;
+}
+
+.intro {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  left: 40%;
+  top: 14%;
+}
+.vector {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  left: 40%;
+  bottom: 5%;
+}
+.dot {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  left: 44%;
+  bottom: 17%;
+}
+h1 {
+  position: absolute;
+  top: 28%;
+  font-size: 55px;
+  font-weight: 800;
+  left: 6%;
+  color: blue;
+}
+h4 {
+  position: absolute;
+  top: 44%;
+  font-size: 20px;
+  color: lightslategray;
+  font-weight: 100;
+  left: 6%;
+  width: 21%;
+}
+.learn-more-btn {
+  position: absolute;
+  top: 67%;
+  left: 6%;
+  border-radius: 7vh;
+  background-image: linear-gradient(90deg, blue, violet);
+  padding: 5px 40px 5px 40px;
+  color: #fff;
+  font-size: 28px;
+}
